@@ -18,3 +18,6 @@ for j = 1:5
 end
 
 Ytest1nn = eud * Ytrain';
+% Ytest1nn will give out a 5x5 matrix:
+% The columns are the tested values of vector corresponding to the trained class.
+% If 'i'th value in a column 'j' is minimum, this means jth image is closest to ith number of test class.
