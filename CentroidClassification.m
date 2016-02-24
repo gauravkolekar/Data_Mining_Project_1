@@ -24,8 +24,9 @@ end
 % centroid = (AA * Ytrain') ./ 9;
 
 Ytest1 = pdist2(X',centroid','euclidean');
-plot(Ytest1,'rx','Markersize',10)
+[Ytest2value  Ytest2]= max(Ytest1,[],1);
 
 % Ytest1 will give out a 5x5 matrix:
 % The columns are the tested values of vector corresponding to the trained class.
 % If 'i'th value in a column 'j' is minimum, this means jth image is closest to ith number of test class.
+% Ytest2 contains the class numbers of each test image.
