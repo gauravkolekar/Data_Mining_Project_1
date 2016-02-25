@@ -3,7 +3,7 @@ Data Mining Project 1
 Program Name: centroid
 Team Members:
 Gaurav Vivek Kolekar
-Brijesh
+Brijesh Dhankara
 %}
 trainDataLoad = load('trainDataXY.txt');
 testDataLoad = load('testDataXY.txt');
