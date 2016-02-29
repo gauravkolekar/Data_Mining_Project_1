@@ -24,7 +24,7 @@ end
 % centroid = (AA * Ytrain') ./ 9;
 
 Ytest1 = pdist2(X',centroid','euclidean');
-[Ytest2value  Ytest2]= max(Ytest1,[],1);
+[Ytest2value  Ytest2]= min(Ytest1,[],1);
 
 % Ytest1 will give out a 5x5 matrix:
 % The columns are the tested values of vector corresponding to the trained class.
