@@ -2,8 +2,6 @@
 Data Mining Project 1
 Algorithm Name: centroid
 Team Members:
-Algorithm Name: KNN
-Team Members:
 Gaurav Vivek Kolekar
 Brijesh Dhankara
 %}
